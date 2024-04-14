@@ -49,6 +49,9 @@ Model Card: https://huggingface.co/yiyanghkust/finbert-tone?text=growth+is+stron
 
 This project leverages the sentiment scores generated from the FinBERT model to devise financial strategies aimed at achieving promising expected returns on selected stocks. Utilizing the AlphaLens package, we analyze sentiment scores as a predictive factor for stock performance across three distinct time horizons: 1, 5, and 10 quarters. This analysis helps provide investors with insights into potentially profitable investments as well as those that may be less favorable. The objective is to equip investors with a nuanced understanding of how sentiment influences stock performance, thereby guiding more informed investment decisions.
 
+<img width="476" alt="Screenshot 2024-04-14 at 3 29 09 PM" src="https://github.com/georgelv1021/transformers_final_project/assets/57245683/d353e00e-37cd-4561-89d1-d8e7eb9b0103">
+
+
 ---
 
 ## Video Recording
