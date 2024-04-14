@@ -3,8 +3,7 @@
 In this project, we propose an innovative approach that combines the power of natural language processing 
 (NLP) and network science to analyze news articles. The project's main objective is to automatically 
 derive investment signals from news articles and assess their impact on associated companies. By 
-leveraging NLP models specifically fine-tuned for this purpose, we aim to identify causal relationships 
-between pairs of events and gain insights into how they affect companies/assets across diverse industries. 
+leveraging NLP models specifically fine-tuned for this purpose, we aim to gain insights into how they affect companies/assets across diverse industries. 
 
 
 ## Table of Contents  
@@ -37,13 +36,18 @@ connecting event pairs and their impact to companies
 
 ## Data
 
----
+Our dataset comprises stock price data for S&P 500 companies, covering the period from September 12, 2022, to September 13, 2023. In addition to stock prices, the dataset includes associated news articles that may have directly or indirectly influenced these prices. For each news item, the dataset provides the publication date, title, content, and the ticker symbols of the relevant companies. This comprehensive compilation of financial and media data is structured to facilitate analysis of the impact of news on stock market behavior.
 
+---
 ## Modeling
 
 
+Model Card: https://huggingface.co/yiyanghkust/finbert-tone?text=growth+is+strong+and+we+have+plenty+of+liquidity
+
 ---
 ## Inferencing
+
+This project leverages the sentiment scores generated from the FinBERT model to devise financial strategies aimed at achieving promising expected returns on selected stocks. Utilizing the AlphaLens package, we analyze sentiment scores as a predictive factor for stock performance across three distinct time horizons: 1, 5, and 10 quarters. This analysis helps provide investors with insights into potentially profitable investments as well as those that may be less favorable. The objective is to equip investors with a nuanced understanding of how sentiment influences stock performance, thereby guiding more informed investment decisions.
 
 ---
 
