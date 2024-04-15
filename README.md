@@ -67,7 +67,7 @@ Step 2: Sentiment Analysis Results
 - **Sentiment Score**: This column represents the confidence score of the sentiment prediction. The model outputs a score, often close to 1 for high confidence in its prediction. For instance, a score of 0.999993 for negative sentiment means the model is almost certain the article has a negative sentiment.
 
 ---
-## Inferencing
+## Inferencing (Alphalens Package)
 
 This project leverages the sentiment scores generated from the FinBERT model to devise financial strategies aimed at achieving promising expected returns on selected stocks. Utilizing the AlphaLens package, we analyze sentiment scores as a predictive factor for stock performance across three distinct time horizons: 1, 5, and 10 quarters. This analysis helps provide investors with insights into potentially profitable investments as well as those that may be less favorable. The objective is to equip investors with a nuanced understanding of how sentiment influences stock performance, thereby guiding more informed investment decisions.
 
