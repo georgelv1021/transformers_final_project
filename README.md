@@ -73,6 +73,7 @@ This project leverages the sentiment scores generated from the FinBERT model to 
 
 <img width="464" alt="Screenshot 2024-04-14 at 3 29 59 PM" src="https://github.com/georgelv1021/transformers_final_project/assets/57245683/a5d4e537-d453-4e3f-97a6-9db58702c96f">
 <img width="467" alt="Screenshot 2024-04-14 at 3 31 45 PM" src="https://github.com/georgelv1021/transformers_final_project/assets/57245683/17417acb-6bd6-4539-95bf-785a16ae4516">
+<img width="387" alt="Screenshot 2024-04-15 at 3 37 59 PM" src="https://github.com/georgelv1021/transformers_final_project/assets/57245683/56e10a69-f168-40e5-bbf9-c435d69c41d5">
 
 
 ---
