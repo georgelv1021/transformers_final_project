@@ -41,8 +41,30 @@ Our dataset comprises stock price data for S&P 500 companies, covering the perio
 ---
 ## Modeling
 
-
 Model Card: https://huggingface.co/yiyanghkust/finbert-tone?text=growth+is+strong+and+we+have+plenty+of+liquidity
+
+Step 1: Application of FinBERT Pipeline
+
+
+Tokenization
+
+- **Tokenizer**: This is the first step in the FinBERT pipeline. The tokenizer takes the text from the `title_content` column and breaks it down into tokens that BERT can understand. These tokens include individual words, punctuation, and subword units for words that BERT hasn't seen before.
+
+- **Token IDs & Attention Mask**: Each token is converted into a unique integer (token ID). Along with this, an attention mask is created to tell the model which tokens are meaningful and which are padding.
+
+Model Processing
+
+- **FinBERT Model**: The token IDs and attention masks are then fed into the FinBERT model. FinBERT, as a BERT model variant, contains multiple layers of Transformer units, which are designed to process sequences of text data. It processes the text in the context of each token, capturing the nuances of the language used in financial news.
+
+- **Sentiment Classification**: The FinBERT model has been fine-tuned to classify the sentiment of financial text. This means that during its training, it learned to associate certain patterns in the tokenized text with sentiment labels (such as positive, neutral, and negative).
+
+- **Output**: For each piece of text, FinBERT outputs a set of logits, which are raw, non-normalized predictions that a machine learning model generates in its last layer. These logits are transformed into probabilities through a softmax function, where the highest probability corresponds to the predicted sentiment.
+
+Step 2: Sentiment Analysis Results
+
+- **Sentiment**: This column in the results represents the sentiment of the article as predicted by FinBERT.
+
+- **Sentiment Score**: This column represents the confidence score of the sentiment prediction. The model outputs a score, often close to 1 for high confidence in its prediction. For instance, a score of 0.999993 for negative sentiment means the model is almost certain the article has a negative sentiment.
 
 ---
 ## Inferencing
