@@ -10,7 +10,8 @@ leveraging NLP models specifically fine-tuned for this purpose, we aim to gain i
 1. [Overview](#Overview)  
 2. [Data](#data)
 4. [Modeling](#modeling)
-5. [Inferencing](#Inferencing)
+5. [Critical Analysis](#critical-analysis)
+6. [Inferencing](#Inferencing)
 
 ---
 ## Overview
