@@ -38,6 +38,7 @@ connecting event pairs and their impact to companies
 
 Our dataset comprises stock price data for S&P 500 companies, covering the period from September 12, 2022, to September 13, 2023. In addition to stock prices, the dataset includes associated news articles that may have directly or indirectly influenced these prices. For each news item, the dataset provides the publication date, title, content, and the ticker symbols of the relevant companies. This comprehensive compilation of financial and media data is structured to facilitate analysis of the impact of news on stock market behavior.
 ![alt text](image.png)
+
 ---
 ## Modeling
 
