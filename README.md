@@ -74,12 +74,17 @@ Step 2: Sentiment Analysis Results
 
 ## Critical Analysis
 
+What needs to be improved for this model?
+
+This model excels at performing sentiment analysis on sentences or articles that explicitly mention a company's name, but it is less effective for analyzing external factors that are crucial for predicting a company's stock performance.
+
+Details can be shown in the demo.
 
 ---
 
 ## Inferencing
 
-This project leverages the sentiment scores generated from the FinBERT model to devise financial strategies aimed at achieving promising expected returns on selected stocks. Utilizing the AlphaLens package, we analyze sentiment scores as a predictive factor for stock performance across three distinct time horizons: 1, 5, and 10 quarters. This analysis helps provide investors with insights into potentially profitable investments as well as those that may be less favorable. The objective is to equip investors with a nuanced understanding of how sentiment influences stock performance, thereby guiding more informed investment decisions.
+Next, we can leverage the sentiment scores generated from the FinBERT model to devise financial strategies aimed at achieving promising expected returns on selected stocks. Utilizing the AlphaLens package, we analyze sentiment scores as a predictive factor for stock performance across three distinct time horizons: 1, 5, and 10 quarters. This analysis helps provide investors with insights into potentially profitable investments as well as those that may be less favorable. The objective is to equip investors with a nuanced understanding of how sentiment influences stock performance, thereby guiding more informed investment decisions.
 
 <img width="464" alt="Screenshot 2024-04-14 at 3 29 59 PM" src="https://github.com/georgelv1021/transformers_final_project/assets/57245683/a5d4e537-d453-4e3f-97a6-9db58702c96f">
 <img width="467" alt="Screenshot 2024-04-14 at 3 31 45 PM" src="https://github.com/georgelv1021/transformers_final_project/assets/57245683/17417acb-6bd6-4539-95bf-785a16ae4516">
