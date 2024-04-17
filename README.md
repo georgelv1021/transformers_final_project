@@ -1,4 +1,4 @@
-# Leveraging NLP to Derive Investment Signal(s) from News Articles
+# Leveraging Finbert Model for Building Portfolio
 
 In this project, we propose an innovative approach that combines the power of natural language processing 
 (NLP) and network science to analyze news articles. The project's main objective is to automatically 
