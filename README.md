@@ -73,13 +73,16 @@ Step 2: Sentiment Analysis Results
 ---
 
 ## Critical Analysis
+Details can be shown in the demo.
+
+Details can be shown in the demo.
+
 
 What needs to be improved for this model?
 
 This model excels at performing sentiment analysis on sentences or articles that explicitly mention a company's name, but it is less effective for analyzing external factors that are crucial for predicting a company's stock performance.
 
-Details can be shown in the demo.
-
+Solution: Ensemble method.
 ---
 
 ## Inferencing
