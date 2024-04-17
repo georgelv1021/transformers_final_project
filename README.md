@@ -83,6 +83,7 @@ What needs to be improved for this model?
 This model excels at performing sentiment analysis on sentences or articles that explicitly mention a company's name, but it is less effective for analyzing external factors that are crucial for predicting a company's stock performance.
 
 Solution: Ensemble method.
+
 ---
 
 ## Inferencing
